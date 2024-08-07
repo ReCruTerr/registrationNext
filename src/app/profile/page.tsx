@@ -5,7 +5,7 @@ import Link from 'next/link'
 import GoogleProvider from 'next-auth/providers/google'
 import { AuthCoingig } from '../../../auth'
 
-export const Profile = () => {
+export const profile = () => {
   const session = useSession()
   console.log(session);
   
@@ -20,4 +20,4 @@ export const Profile = () => {
     </>
   )
 }
-export default Profile
+export default profile
