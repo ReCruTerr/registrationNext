@@ -6,7 +6,7 @@ import { Button } from '../components/Button'
 import Google from '../components/GoogleButton'
 import {SubmitHandler, useForm} from 'react-hook-form';
 import FormRegistration from '../components/FormRegistration/Form'
-export const Registration = () => {
+export default function Registration(){
 
   return (
     <header className=" w-screen h-screen flex justify-center items-center">
@@ -20,4 +20,4 @@ export const Registration = () => {
     </header>
   )
 }
-export default Registration
+

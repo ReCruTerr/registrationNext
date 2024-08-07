@@ -8,7 +8,7 @@ import { BsFillEyeFill } from "react-icons/bs";
 import { BsFillEyeSlashFill } from "react-icons/bs";
 import { useRouter } from 'next/navigation';
 import { signIn } from 'next-auth/react';
-export const MainForm = () => {
+export default function MainForm(){
   const router = useRouter();
     interface I_Form { 
         email: string,
@@ -66,4 +66,3 @@ export const MainForm = () => {
     </>
   )
 }
-export default MainForm
